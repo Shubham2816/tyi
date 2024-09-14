@@ -1,0 +1,109 @@
+.searchPage_header{
+    display: flex;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    align-items: flex-start;
+    padding: 30px;
+    border-bottom: 1px solid lightgray;
+}
+
+.searchPage_header img{
+    object-fit: contain;
+    height: 50px;
+    margin-right: 50px;
+}
+
+.searchPage_headerBody > .search > .search_input {
+    margin-top: 0;
+    width: unset;
+    margin: unset;
+    max-width: 650px;
+}
+
+.searchPage_options{
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    color: rgb(77, 73, 73);
+    margin-right: 15%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    max-width: 100%;
+}
+
+.searchPage_options a, .searchPage_optionsRight a{
+    text-decoration: none;
+    color: rgb(73, 70, 70);
+}
+
+.searchPage_optionsLeft, .searchPage_optionsRight {
+    display: flex;
+    align-items: center;
+}
+
+.searchPage_option{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.searchPage_option a {
+    margin-left: 5px;
+}
+
+.searchPage_optionsRight{
+    margin-left: 80px;
+}
+
+/* .searchPage .search_input{
+    margin: 0px;
+    margin-top: 0px;
+} */
+
+.searchPage_options::-webkit-scrollbar{
+    display: none;
+}
+
+.searchPage_result {
+    margin:  40px 0;
+    font-size: 15px;
+}
+
+.searchPage_resultCount {
+    color: #70757a;
+    font-size: 14px;
+}
+
+.searchPage_results {
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-bottom: 100px;
+}
+
+.searchPage_resultImage {
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.searchpage_resultTitle{
+    text-decoration: none;
+}
+
+.searchpage_resultTitle:hover {
+    text-decoration: underline;
+}
+
+.searchpage_resultTitle >h2 {
+    font-weight: 450;
+    font-size: 24px;
+}
+
+.searchPage_resultSnippet{
+    margin-top: 10px;
+}
